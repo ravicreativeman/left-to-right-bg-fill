@@ -42,13 +42,30 @@
         }
     </style>
 
+    <style>
+        .link {
+            background: linear-gradient(hotpink, hotpink);
+            background-repeat: no-repeat;
+            transition: background-size 350ms;
+            display: inline;
+            background-position-x: right;
+            background-size: 0% 100%;
+        }
 
-
-
+        .link:hover {
+            background-size: 100% 100%;
+            background-position-x: left;
+        }
+    </style>
 </head>
 
 <body>
     <button class="btn">Log In</button>
+
+    <br>
+    <br>
+    <br>
+    <div class="link">Hello</div>
 
 </body>
 
